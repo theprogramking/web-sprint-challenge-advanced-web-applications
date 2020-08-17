@@ -37,7 +37,6 @@ const Login = (props) => {
         <input type="password" name="password" onChange={handleInputChange} />
         <br />
         <button>Login</button>
-        {JSON.stringify(loginFormInput)}
       </form>
     </>
   );
