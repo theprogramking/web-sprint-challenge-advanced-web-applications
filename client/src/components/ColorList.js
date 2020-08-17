@@ -26,6 +26,7 @@ const ColorList = ({ colors, updateColors }) => {
       .put(`http://localhost:5000/api/colors/${colorToEdit.id}`)
       .then((res) => {
         setEditing(false);
+        console.log(res);
       })
       .catch((err) => {
         console.log(err);
